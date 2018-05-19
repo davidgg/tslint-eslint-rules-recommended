@@ -1,0 +1,30 @@
+{
+  "name": "tslint-eslint-rules-recommended",
+  "version": "1.0.0",
+  "description": "Recommended ESLint rules for tslint-eslint-rules",
+  "main": "tslint.json",
+  "repository": "git@github.com:davidgg/tslint-eslint-rules-recommended.git",
+  "bugs": {
+    "url": "https://github.com/davidgg/tslint-eslint-rules-recommended/issues"
+  },
+  "author": "DavidGG <hola@davidgg.es>",
+  "contributors": [
+    {
+      "name": "David GG",
+      "email": "hola@davidgg.es"
+    }
+  ],
+  "keywords": [
+    "tslint",
+    "tslint-eslint-rules",
+    "typescript",
+    "linter",
+    "eslint"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "tslint": "^5.10.0",
+    "tslint-eslint-rules": "^5.3.1",
+    "typescript": "^2.8.3"
+  }
+}
