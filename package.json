@@ -1,6 +1,6 @@
 {
   "name": "tslint-eslint-rules-recommended",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Recommended ESLint rules for tslint-eslint-rules",
   "main": "tslint.js",
   "repository": "git@github.com:davidgg/tslint-eslint-rules-recommended.git",
