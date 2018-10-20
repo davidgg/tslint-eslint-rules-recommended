@@ -1,4 +1,5 @@
 [![npm version](https://badge.fury.io/js/tslint-eslint-rules-recommended.svg)](https://badge.fury.io/js/tslint-eslint-rules-recommended)
+[![dependencies](https://david-dm.org/davidgg/tslint-eslint-rules-recommended.svg)](https://david-dm.org/davidgg/tslint-eslint-rules-recommended)
 [![License](https://img.shields.io/npm/l/tslint-eslint-rules-recommended.svg)](LICENSE)
 
 # tslint-eslint-rules-recommended
@@ -34,7 +35,7 @@ If you prefer you can overwrite some rules:
 
 ## Rules
 
-Rules applied
+Recommended rules enabled ([ESLint recommended rules](https://eslint.org/docs/rules/))
 
 | Rule                     | Origin                               |
 | ------------------------ | ------------------------------------ |
@@ -61,6 +62,7 @@ Rules applied
 | no-unused-vars           | TSLint "no-unused-variable"          |
 | use-isnan                | TSLint "use-isnan"                   |
 | valid-typeof             | tslint-eslint-rules                  |
+| padded-blocks            | tslint-eslint-rules                  |
 
 You can add more ESLint rules using [tslint-eslint-rules project](https://github.com/buzinas/tslint-eslint-rules) ported rules.
 
