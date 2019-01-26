@@ -1,5 +1,6 @@
 [![npm version](https://badge.fury.io/js/tslint-eslint-rules-recommended.svg)](https://badge.fury.io/js/tslint-eslint-rules-recommended)
 [![dependencies](https://david-dm.org/davidgg/tslint-eslint-rules-recommended.svg)](https://david-dm.org/davidgg/tslint-eslint-rules-recommended)
+[![total downloads](https://img.shields.io/npm/dt/tslint-eslint-rules-recommended.svg)](https://img.shields.io/npm/dt/tslint-eslint-rules-recommended.svg)
 [![License](https://img.shields.io/npm/l/tslint-eslint-rules-recommended.svg)](LICENSE)
 
 # tslint-eslint-rules-recommended
