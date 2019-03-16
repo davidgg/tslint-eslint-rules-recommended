@@ -1,13 +1,13 @@
-[![npm version](https://badge.fury.io/js/tslint-eslint-rules-recommended.svg)](https://badge.fury.io/js/tslint-eslint-rules-recommended)
+[![npm version](https://badge.fury.io/js/tslint-eslint-rules-recommended.svg)](https://www.npmjs.com/package/tslint-eslint-rules-recommended)
 [![dependencies](https://david-dm.org/davidgg/tslint-eslint-rules-recommended.svg)](https://david-dm.org/davidgg/tslint-eslint-rules-recommended)
-[![total downloads](https://img.shields.io/npm/dt/tslint-eslint-rules-recommended.svg)](https://img.shields.io/npm/dt/tslint-eslint-rules-recommended.svg)
+[![total downloads](https://img.shields.io/npm/dm/tslint-eslint-rules-recommended.svg)](https://www.npmjs.com/package/tslint-eslint-rules-recommended)
 [![License](https://img.shields.io/npm/l/tslint-eslint-rules-recommended.svg)](LICENSE)
 
 # tslint-eslint-rules-recommended
 
 Recommended ESLint rules for tslint-eslint-rules. Inspired by ESLint Recommended rules [eslint:recommended rules](https://github.com/eslint/eslint/blob/master/conf/eslint-recommended.js) and [tslint-eslint-rules project](https://github.com/buzinas/tslint-eslint-rules) that ports most of them.
 
-## How to use?
+## 🤔 How to use?
 
 Install the dependency
 
@@ -23,7 +23,9 @@ Use it in your tslint.json file
 }
 ```
 
-If you prefer you can overwrite some rules:
+## 🤓 Available rules
+
+If you want, you can extend or modify the recommended rules:
 
 ```json
 {
@@ -34,9 +36,12 @@ If you prefer you can overwrite some rules:
 }
 ```
 
+In addition to [Palantir rules](https://palantir.github.io/tslint/rules/) you can use
+[tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules).
+
 ## Rules
 
-Recommended rules enabled ([ESLint recommended rules](https://eslint.org/docs/rules/))
+✅ Recommended rules enabled ([ESLint recommended rules](https://eslint.org/docs/rules/)) ✅
 
 | Rule                     | Origin                               |
 | ------------------------ | ------------------------------------ |
@@ -67,7 +72,7 @@ Recommended rules enabled ([ESLint recommended rules](https://eslint.org/docs/ru
 
 You can add more ESLint rules using [tslint-eslint-rules project](https://github.com/buzinas/tslint-eslint-rules) ported rules.
 
-Next rules are not currently available:
+🚫 Next rules are not currently available: 🚫
 
 | Rule                  | Reason                       |
 | --------------------- | ---------------------------- |
@@ -96,3 +101,15 @@ Next rules are not currently available:
 | no-unused-labels      | Unavailable                  |
 | no-useless-escape     | Unavailable                  |
 | require-yield         | Unavailable                  |
+
+## 🚧 TSLint Future Notice
+
+TSLint is an active and updated project, but if you are into linters you should
+read [TSLint in 2019 post](https://medium.com/palantir/tslint-in-2019-1a144c2317a9)
+to know more about the upcoming changes.
+
+I'll continue the maintenance of this repo as long as TSLint is the main TypeScript linter.
+
+## License
+
+MIT License - read [LICENSE](LICENSE.md) for full details.
