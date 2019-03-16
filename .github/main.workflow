@@ -1,5 +1,5 @@
-workflow "Build, and Publish" {
-  on = "push"
+workflow "publish on release" {
+  on = "release"
   resolves = ["Publish"]
 }
 
